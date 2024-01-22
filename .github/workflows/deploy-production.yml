@@ -14,6 +14,7 @@ jobs:
           node-version: 16
       - name: lint and test
         run: |
+          cd line_scheduling_react
           npm install
           npm run lint
           npm run test
